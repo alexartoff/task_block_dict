@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "block_dict"
+version = "0.1.0"
+description = "практические задания из блока курса про словари и множества"
+authors = ["alexandertarakanov <alex.artoff@gmail.com>"]
+packages = [{include = "block_dict"},]
+
+[tool.poetry.scripts]
+t1-dict = "block_dict.scripts.task1_dict:main"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,4 @@
+.venv
+block_dict/__pycache__
+block_dict/scripts/__pycache__
+tests
