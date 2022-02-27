@@ -5,4 +5,6 @@
 4. task - "all unique" (`poetry run t4-alluniq`)
 5. task - "toggle/toggled" (`poetry run t5-toggle`)  
 6. task - "diff keys in dict's" (`poetry run t6-diffkeys`)
-7. task . .  
+7. task - "apply diff in set's" (`poetry run t7-applydiff`)  
+---
+task . . 
