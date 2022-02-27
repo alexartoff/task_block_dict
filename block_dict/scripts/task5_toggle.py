@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 
 
-from copy import copy
-
-
 def toggle(flg, st):
     if flg in st:
         st.discard(flg)

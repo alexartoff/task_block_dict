@@ -4,4 +4,5 @@
 3. task - "collect indexes" (`poetry run t3-cllcindx`)  
 4. task - "all unique" (`poetry run t4-alluniq`)
 5. task - "toggle/toggled" (`poetry run t5-toggle`)  
-6. task . . 
+6. task - "diff keys in dict's" (`poetry run t6-diffkeys`)
+7. task . .  

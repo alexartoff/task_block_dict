@@ -11,6 +11,7 @@ t2-count = "block_dict.scripts.task2_count_all:main"
 t3-cllcindx = "block_dict.scripts.task3_collect_indexes:main"
 t4-alluniq = "block_dict.scripts.task4_all_unique:main"
 t5-toggle = "block_dict.scripts.task5_toggle:main"
+t6-diffkeys = "block_dict.scripts.task6_diff_keys:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"
