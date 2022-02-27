@@ -7,4 +7,5 @@
 6. task - "diff keys in dict's" (`poetry run t6-diffkeys`)
 7. task - "apply diff in set's" (`poetry run t7-applydiff`)  
 ---
-task . . 
+task "DNA > RNA" (`poetry run task-2rna`)  
+task .. 
