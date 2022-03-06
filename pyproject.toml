@@ -17,6 +17,7 @@ task-2rna = "block_dict.scripts.task_dna_to_rna:main"
 task-bqs = "block_dict.scripts.task_bqs:main"
 task-2r2a = "block_dict.scripts.task_roman_arabic:main"
 task-find-where = "block_dict.scripts.task_find_where:main"
+task-scrabble = "block_dict.scripts.task_scrabble:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"

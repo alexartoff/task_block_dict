@@ -11,4 +11,5 @@ task "DNA > RNA" (`poetry run task-2rna`)
 task "build query string (sorted)" (`poetry run task-bqs`)
 task "to roman & to arabic" (`poetry run task-2r2a`)  
 task "find where.." (`poetry run task-find-where`)  
-task . .  
+task "scrabble" (`poetry run task-scrabble`)  
+task . . 
