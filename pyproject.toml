@@ -14,6 +14,8 @@ t5-toggle = "block_dict.scripts.task5_toggle:main"
 t6-diffkeys = "block_dict.scripts.task6_diff_keys:main"
 t7-applydiff = "block_dict.scripts.task7_apply_diff:main"
 task-2rna = "block_dict.scripts.task_dna_to_rna:main"
+task-bqs = "block_dict.scripts.task_bqs:main"
+task-2r2a = "block_dict.scripts.task_roman_arabic:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"

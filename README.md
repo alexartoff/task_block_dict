@@ -8,4 +8,6 @@
 7. task - "apply diff in set's" (`poetry run t7-applydiff`)  
 ---
 task "DNA > RNA" (`poetry run task-2rna`)  
+task "build query string (sorted)" (`poetry run task-bqs`)
+task "to roman & to arabic" (`poetry run task-2r2a`)  
 task .. 
