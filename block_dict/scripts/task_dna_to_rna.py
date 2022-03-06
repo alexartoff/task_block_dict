@@ -1,17 +1,20 @@
 #!/usr/bin/env python
 
 
-from collections import Counter
+dct_change = {'G': 'C', 'C': 'G', 'T': 'A', 'A': 'U'}
 
 
 def to_rna(dna):
     out = ''
-    dct_change = {'G': 'C', 'C': 'G', 'T': 'A', 'A': 'U'}
     for item in dna:
         for key in dct_change.keys():
             if item == key:
                 out += dct_change[key]
     return out
+
+
+def to_rna_t(dna):
+    return ''.join(map(dct_change.get, dna))
 
 
 def main():
