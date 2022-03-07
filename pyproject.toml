@@ -19,6 +19,7 @@ task-2r2a = "block_dict.scripts.task_roman_arabic:main"
 task-find-where = "block_dict.scripts.task_find_where:main"
 task-scrabble = "block_dict.scripts.task_scrabble:main"
 task-merged = "block_dict.scripts.task_merged:main"
+task-gendiff = "block_dict.scripts.task_gen_diff:main"
 
 [tool.poetry.dependencies]
 python = "^3.8"

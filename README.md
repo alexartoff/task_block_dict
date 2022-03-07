@@ -13,4 +13,5 @@ task "to roman & to arabic" (`poetry run task-2r2a`)
 task "find where.." (`poetry run task-find-where`)  
 task "scrabble" (`poetry run task-scrabble`)  
 task "merged" (`poetry run task-merged`)  
-task . .
+task "gen diff" (`poetry run task-gendiff`) 
+  
